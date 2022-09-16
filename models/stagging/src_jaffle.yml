@@ -2,8 +2,11 @@ version: 2
 
 sources:
   - name: jaffle_shop
+    description: nombre del recurso
     database: dbt-tutorial
     schema: jaffle_shop
     tables:
       - name: customers
+        description: tabla customers
       - name: orders
+        description: tabla orders
